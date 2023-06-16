@@ -5,8 +5,6 @@ const fatcatImg = document.querySelector(".example__fat-cat-wrapper");
 const slimcatImg = document.querySelector(".example__skinny-cat-wrapper");
 
 sliderButton.addEventListener("mousedown", (e) => {
-  console.log("mousedown");
-  console.log("mousedown X " + e.screenX);
   const initSliderButtonX =
     sliderButton.getBoundingClientRect().left -
     sliderContainer.getBoundingClientRect().left;
